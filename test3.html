@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form method="get" action="https://google.com">
+            <label for="ad">Ad Soyad*</label>
+            <input id="ad" type="text" name="ad" required placeholder="adınızı soyadınız giriniz">
+            <br>
+
+            <label for="email">Email*</label>
+            <input id="email" type="email" name="eposta" required placeholder="info@example.com">
+            <br>
+
+            <label for="maas">Maaş</label>
+            <input id="maas" type="number" name="maas" min="1000" max="15000">
+            <br>
+
+            <label>Şifre</label>
+            <input type="password" name="sifre">
+            <br>
+
+            <label>Meslek</label>
+            <input  type="search" name="meslek">
+            <br>
+
+            <label for="ulke">Ülke</label>
+            <select name="ulke" id="ulke">
+                <option value="tr">Türkiye</option>
+                <option value="en">İngiltere</option>
+                <option value="de">Almanya</option>
+            </select>
+            <br>
+
+            <input type="hidden" name="code" value="askdjfksjdfklsjdf">
+
+            <label for="adres">Adres</label>
+            <textarea name="adres" id="adres" cols="30" rows="10"></textarea>
+
+
+            <input type="submit" value="Kaydet">
+            <input type="reset" value="Temizle">
+            <input type="button" value="İptal">
+        </form>
+    </body>
+</html>

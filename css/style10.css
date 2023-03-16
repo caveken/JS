@@ -1,0 +1,19 @@
+.mesaj1{
+    border:5px dotted orangered;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+.mesaj2{
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+
+.mesaj3{
+    border:5px solid orangered;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
